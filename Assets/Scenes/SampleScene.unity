@@ -1223,7 +1223,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh30178
+  m_Name: pb_Mesh33636
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2690,6 +2690,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_WeaponData: {fileID: 11400000, guid: 9822ac61dbb6c2940a3f4297fdb51c42, type: 2}
+  m_HitLayerMask:
+    serializedVersion: 2
+    m_Bits: 2147483647
   m_ReserveAmmo: 0
   m_AmmoInClip: 0
   m_FiringSound: {fileID: 0}
@@ -2697,9 +2700,6 @@ MonoBehaviour:
   m_OutOfAmmoSound: {fileID: 0}
   m_Mesh: {fileID: 0}
   m_FiringPoint: {fileID: 1951686595}
-  m_HitLayerMask:
-    serializedVersion: 2
-    m_Bits: 2147483647
 --- !u!114 &919132149302108853
 MonoBehaviour:
   m_ObjectHideFlags: 0
